@@ -1,0 +1,33 @@
+## arg 1:  the new package version
+pre_install(arg1) {
+    echo "installing ${arg1}"
+}
+
+## arg 1:  the new package version
+post_install(arg1) {
+    echo "installed ${arg1}"
+}
+
+## arg 1:  the new package version
+## arg 2:  the old package version
+pre_upgrade(arg1, arg2) {
+    echo "upgrading from ${arg2} to ${arg1}"
+}
+
+## arg 1:  the new package version
+## arg 2:  the old package version
+post_upgrade(arg1, arg2) {
+    echo "upgraded from ${arg2} to ${arg1}"
+    echo "postuppostup!"
+}
+
+## arg 1:  the old package version
+pre_remove(arg1) {
+    echo "removing ${arg1}"
+}
+
+## arg 1:  the old package version
+post_remove(arg1) {
+	echo "removed ${arg1}"
+}
+

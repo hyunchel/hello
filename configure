@@ -1,0 +1,4 @@
+#! /usr/bin/env bash
+# generate config.mk and/or config.h
+# touch config.mk
+echo "nothing to do"
