@@ -5,12 +5,12 @@
 
 # Maintainer: hyunchel
 pkgname=hello
-pkgver=1.0.1
+pkgver=1.1.0
 pkgrel=1
 epoch=
 pkgdesc="A program that prints 'hello, world!' and then exits."
 arch=('x86_64')
-url="https://github.com/hyunchel/hello/releases/tag/v1.0.1"
+url="https://github.com/hyunchel/hello/releases/tag/v1.1.0"
 license=('MIT')
 groups=()
 depends=('go>=1.21.0')
@@ -24,7 +24,7 @@ backup=()
 options=()
 install=proto.install
 changelog=
-source=("https://github.com/hyunchel/hello/archive/refs/tags/v1.0.1.tar.gz")
+source=("https://github.com/hyunchel/hello/archive/refs/tags/v1.1.0.tar.gz")
 noextract=()
 sha256sums=('SKIP')
 validpgpkeys=()
